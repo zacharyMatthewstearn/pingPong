@@ -8,9 +8,18 @@
 
 _Website that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions: Numbers divisible by 3 are replaced with "ping", numbers divisible by 5 are replaced with "pong", and numbers divisible by 15 are replaced with "ping-pong", as described in the following specifications:_
 
-* _Spec: {}_
-  * _Example Input: {}_
-  * _Example Output: {}_
+* _**Spec:** Count up to the provided number_
+  * _**Example Input:** 2_
+  * _**Example Output:** [1,2]_
+* _**Spec:** Replace multiples of 3 with "ping"_
+  * _**Example Input:** 6_
+  * _**Example Output:** [1,2,"ping",4,5,"ping"]_
+* _**Spec:** Replace Multiples of 5 with "ping"_
+  * _**Example Input:** 10_
+  * _**Example Output:** [1,2,"ping",4,"pong","ping",7,8,"ping","pong"]_
+* _**Spec:** Replace Multiples of 5 with "ping"_
+  * _**Example Input:** 15_
+  * _**Example Output:** [1,2,"ping",4,"pong","ping",7,8,"ping","pong",11,"ping",13,14,"ping-pong]"]_
 
 ## Setup/Installation Requirements
 
@@ -19,7 +28,7 @@ _Website that takes a number from a user and returns a range of numbers from 1 t
 
 _OR_
 
-* _View on GitHub Pages at: https://zacharymatthewstearn.github.io/trackSuggester/-
+* _View on GitHub Pages at: https://zacharymatthewstearn.github.io/pingPong/-
 
 ## Known Bugs
 
