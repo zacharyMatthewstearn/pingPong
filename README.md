@@ -1,6 +1,6 @@
 # _Ping Pong_
 
-#### _Website that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions: Numbers divisible by 3 are replaced with "ping", numbers divisible by 5 are replaced with "pong", and numbers divisible by 15 are replaced with "ping-pong", August 19, 2016_
+#### _Take numeric input, replaces numbers with "ping=pong"-themed text, and outputs a mixture of numbers and text; August 19, 2016_
 
 #### By _**Zachary Matthewstearn**_
 
@@ -28,11 +28,7 @@ _Website that takes a number from a user and returns a range of numbers from 1 t
 
 _OR_
 
-* _View on GitHub Pages at: https://zacharymatthewstearn.github.io/pingPong/-
-
-## Known Bugs
-
-_{!!!!REVISIT IF BUGS AT END!!!!}_
+* _View on GitHub Pages at: https://zacharymatthewstearn.github.io/pingPong/_
 
 ## Technologies Used
 

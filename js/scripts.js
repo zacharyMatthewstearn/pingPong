@@ -3,16 +3,16 @@ function generateList (_input){
   var input = parseInt(_input);
   var output = "";
   for (var i = 1; i <= input; i++){
-    output += "<li>" + getReplacement(i) + "</li>"
+    output += "<li>" + getReplacement(i,[15,3,5],["ping-pong","ping","pong"]) + "</li>"
   }
   return output;
 }
 
-function getReplacement(_number){
+function getReplacement(_number, _multiples, _replacements){
   var number = _number;
-  number = replaceNumber(number, 15, "ping-pong");
-  number = replaceNumber(number, 3, "ping");
-  number = replaceNumber(number, 5, "pong");
+  for(var i = 0; i < _multiples.length && i < _replacements.length; i++){
+    number = replaceNumber(number, _multiples[i], _replacements[i]);
+  }
   return number;
 }
 
