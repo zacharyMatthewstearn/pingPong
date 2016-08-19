@@ -1,0 +1,36 @@
+body {
+  background-color: whitesmoke;
+}
+.container{
+  width: 100%;
+}
+.jumbotron {
+  text-align: center;
+  background-color: wheat;
+}
+ul {
+  padding-left: 2rem;
+}
+#sidebar {
+  display: none;
+}
+
+@media only screen and (min-width: 768px){
+  .col {
+    height: 720px;
+    padding-top: 2rem;
+  }
+  #main {
+    padding-left: 5rem;
+  }
+  #sidebar {
+    display: block;
+    background-color: darkseagreen;
+  }
+  #sidebar h4 {
+    color: wheat;
+  }
+  #sidebar p {
+    color: white;
+  }
+}
